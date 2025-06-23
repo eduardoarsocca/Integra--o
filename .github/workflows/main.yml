@@ -1,0 +1,41 @@
+name: 🔄 Sincronização REDCap -> Polotrial
+
+# Dispara a cada 5 min (UTC) e permite disparo manual
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Faz o checkout do código
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      # 2. Definir a versão do Python
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # 3. Instalando as dependencias
+      - name: instalando as dependencia do arquivo requirements
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Executando os scripts
+      - name: executando voluntarios_post.py
+        env:
+          TOKEN_API_REDCAP: ${{ secrets.TOKEN_API_REDCAP }}
+          URL_REDCAP:   ${{ secrets.URL_REDCAP }}
+          API_URL:      ${{ secrets.API_URL }}
+          API_USERNAME: ${{ secrets.API_USERNAME }}
+          API_PASSWORD: ${{ secrets.API_PASSWORD }}
+        run: |
+          python Projeto Python\voluntarios_post.py
+          
