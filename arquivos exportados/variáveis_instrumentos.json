@@ -1,0 +1,72 @@
+[
+    {
+        "original_field_name": "record_id",
+        "choice_value": "",
+        "export_field_name": "record_id"
+    },
+    {
+        "original_field_name": "demografia_nome",
+        "choice_value": "",
+        "export_field_name": "demografia_nome"
+    },
+    {
+        "original_field_name": "demografia_iniciais",
+        "choice_value": "",
+        "export_field_name": "demografia_iniciais"
+    },
+    {
+        "original_field_name": "demografia_nome_mae",
+        "choice_value": "",
+        "export_field_name": "demografia_nome_mae"
+    },
+    {
+        "original_field_name": "demografia_nome_pai",
+        "choice_value": "",
+        "export_field_name": "demografia_nome_pai"
+    },
+    {
+        "original_field_name": "demografia_data_nascimento",
+        "choice_value": "",
+        "export_field_name": "demografia_data_nascimento"
+    },
+    {
+        "original_field_name": "demogarfia_sexo",
+        "choice_value": "",
+        "export_field_name": "demogarfia_sexo"
+    },
+    {
+        "original_field_name": "demografia_rg",
+        "choice_value": "",
+        "export_field_name": "demografia_rg"
+    },
+    {
+        "original_field_name": "demografia_cpf",
+        "choice_value": "",
+        "export_field_name": "demografia_cpf"
+    },
+    {
+        "original_field_name": "demografia_etnia",
+        "choice_value": "",
+        "export_field_name": "demografia_etnia"
+    },
+    {
+        "original_field_name": "demografia_raca",
+        "choice_value": "",
+        "export_field_name": "demografia_raca"
+    },
+    {
+        "original_field_name": "demografia_raca_outra",
+        "choice_value": "",
+        "export_field_name": "demografia_raca_outra"
+    },
+    {
+        "original_field_name": "demografia_escolaridade",
+        "choice_value": "",
+        "export_field_name": "demografia_escolaridade"
+    },
+    {
+        "original_field_name": "demografia_complete",
+        "choice_value": "",
+        "export_field_name": "demografia_complete"
+    }
+]
