@@ -37,5 +37,5 @@ jobs:
           API_USERNAME: ${{ secrets.API_USERNAME }}
           API_PASSWORD: ${{ secrets.API_PASSWORD }}
         run: |
-          python Projeto Python\voluntarios_post.py
+          python projeto/voluntarios_post.py
           
