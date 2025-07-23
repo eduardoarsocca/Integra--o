@@ -17,7 +17,6 @@ payload = {
     'type': 'flat', # 'eav' para exportar como formato de valor-atributo ou 'flat' para exportar como formato plano
     'csvDelimiter': '',
     'fields[0]': 'record_id',
-    'fields[1]': 'demografia_nome',
     'fields[2]': 'demografia_iniciais',
     'returnFormat': 'json'
 }
