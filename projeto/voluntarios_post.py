@@ -8,7 +8,7 @@ import os
 
 for registro in registros:
     dados_envio = {
-        "nome": registro.get("demografia_nome", ""),
+        # "nome": registro.get("demografia_nome", ""),
         "iniciais": registro.get("demografia_iniciais",""),
     }
 
