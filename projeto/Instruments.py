@@ -18,7 +18,6 @@ payload = {
     'csvDelimiter': '',
     'fields[0]': 'record_id',
 <<<<<<< HEAD
-    # 'fields[1]': 'demografia_nome',
     'fields[1]': 'demografia_iniciais',
 =======
     'fields[2]': 'demografia_iniciais',
