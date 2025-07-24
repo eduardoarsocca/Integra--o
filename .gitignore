@@ -2,3 +2,4 @@ voluntarios.ipynb
 voluntarios_pt.py
 \.venv
 .env
+.vscode\launch.json
