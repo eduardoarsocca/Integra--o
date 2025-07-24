@@ -1,5 +1,6 @@
-voluntarios.ipynb
-voluntarios_pt.py
 \.venv
 .env
-.vscode\launch.json
+\.vscode\launch.json
+\Projeto\session.ipynb
+\Projeto\voluntarios_pt.py
+\Projeto\voluntarios.ipynb
